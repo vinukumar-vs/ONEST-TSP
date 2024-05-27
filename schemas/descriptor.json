@@ -1,0 +1,14 @@
+{
+    "descriptor": {
+        //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Descriptor.yaml
+        "id": "couse-001",
+        "name": "Catalog for English courses",
+        "short_desc": "Experienced language educator dedicated to fostering practical conversational skills and cultural fluency",
+        "long_desc": "Hello, I'm Prof. Emma Sullivan, your guide in 'Everyday Conversational English.' With over a decade of experience, I'm here to make language learning dynamic and culturally enriching. Let's explore practical communication skills together for personal and professional growth. Join me on this exciting journey!",
+        "images": [
+            {
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/ins/1.png"
+            }
+        ]
+    }
+}

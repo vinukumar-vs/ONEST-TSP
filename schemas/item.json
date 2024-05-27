@@ -1,0 +1,18 @@
+{
+    "item": {
+        // 1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Item.yaml  
+        "id": "item-unique-id",
+        "descriptor": { },
+        "creator" : { 
+            // 1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Organization.yaml  
+        },
+        "price": { },
+        "quantity": { },
+        "category_ids": [],
+        "rateable": "true/false",
+        "rating": { },
+        "tags": [ 
+            // 1 - tags.json
+        ]
+    }
+}

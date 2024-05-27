@@ -1,0 +1,12 @@
+{
+    "category": {
+        // 1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Category.yaml  
+        "id": "category-id",
+        "parent_category_id": "parent-category-id",
+        "descriptor": {
+            "code": "LANGUAGE-COURSES",
+            "name": "Language Courses"
+        },
+        "tags": []
+    }
+}

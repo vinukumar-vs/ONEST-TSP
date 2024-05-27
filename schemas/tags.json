@@ -1,0 +1,18 @@
+{
+    "tags": {
+        // 1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/TagGroup.yaml
+        "descriptor": { 
+            "code": "content-metadata",
+            "name": "Content metadata"
+        },
+        "list": [
+            {
+                "descriptor": {
+                    "code": "learner-level",
+                    "name": "Learner level"
+                },
+                "value": "Beginner"
+            }
+        ]
+    }
+}

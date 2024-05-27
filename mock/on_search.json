@@ -1,0 +1,133 @@
+{
+    "context": {
+        "action": "on_search",
+        "bap_id": "sample.bap.io",
+        "bap_uri": "https://sample.bap.io",
+        "bpp_id": "sample.bpp.io",
+        "bpp_uri": "https://sample.bpp.io",
+        "domain": "onest:learning-experiences",
+        "message_id": "7db91181-718f-4720-83de-88e36e9f854e",
+        "timestamp": "2023-02-22T10:30:18.145Z",
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+        "ttl": "PT10M",
+        "version": "1.1.0"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Descriptor.yaml
+                "name": "Catalog for English courses"
+            },
+            "providers": [
+                {
+                    //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Provider.yaml  
+                    "categories": [
+                        //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Category.yaml  
+                        {
+                            "descriptor": {
+                                "code": "LANGUAGE-COURSES",
+                                "name": "Language Courses"
+                            },
+                            "id": "LANGUAGE-COURSES"
+                        },
+                        {
+                            "id": "SKILL-DEVELOPMENT-COURSES",
+                            "descriptor": {
+                                "code": "SKILL-DEVELOPMENT-COURSES",
+                                "name": "Skill development Courses"
+                            }
+                        },
+                        {
+                            "id": "TECHNICAL-COURSES",
+                            "descriptor": {
+                                "code": "TECHNICAL-COURSES",
+                                "name": "Technical Courses"
+                            }
+                        }
+                    ],
+                    "descriptor": {
+                        //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Descriptor.yaml
+                        "name": "Ekstep - Sunbird",
+                        "short_desc": "Ekstep Sunbird Building Blocks",
+                        "images": [
+                            {
+                                "size_type": "sm",
+                                "url": "https://sunbird.org/images/sunbird-logo-new.png"
+                            }
+                        ]
+                    },
+                    "id": "Ekstep",
+                    "items": [
+                        {
+                            //1 - https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Item.yaml
+                            "category_ids": [
+                                "LANGUAGE-COURSES",
+                                "SELF-PACED-COURSES"
+                            ],
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Prof. Emma Sullivan"
+                                }
+                            },
+                            "descriptor": {
+                                "long_desc": "Long description of the item",
+                                "name": "Everyday Conversational English",
+                                "short_desc": "short desc"
+                            },
+                            "display": true,
+                            "id": "d4975df5-b18c-4772-80ad-368669856d52",
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "quantity": {
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "rateable": true,
+                            "rating": "4.5",
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "code": "content-metadata",
+                                        "name": "Content metadata"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "learner-level",
+                                                "name": "Learner level"
+                                            },
+                                            "value": "Beginner"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "learning-objective",
+                                                "name": "Learning objective"
+                                            },
+                                            "value": "By the end of the course, learners will confidently navigate everyday conversations, demonstrating improved fluency, cultural awareness, and effective communication skills."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        // 1 -https://github.com/beckn/protocol-specifications/blob/8479762c101c385125cd66ecb907817ed6bdd231/schema/Fulfillment.yaml
+                        {
+                            "agent": {
+                                "person": {
+                                    "name": "Sunbird"
+                                },
+                                "contact": {
+                                    "email": "support@sunbird.org"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
